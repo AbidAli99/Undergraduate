@@ -1,1 +1,1 @@
-# Undergraduate （NPU)
+# Undergraduate（NORTHWESTERN POLYTECHNICAL UNIVERSITY)
