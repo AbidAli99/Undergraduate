@@ -1,0 +1,71 @@
+       .MODEL SMALL
+       .STACK 32
+       .DATA
+       PORT_A EQU 40H
+       PORT_B EQU 42H
+       PORT_C EQU 44H
+       PORT_CTRL EQU 46H
+       CTRLWORLD_8255 = 10000000B          ;BOTH PORT WILL OUTPUT IN MOD0
+       ;PATTERN TABLE GIVEN TO US ,BY THE TEACHER
+       PATTERN_TABLE DB 3FH, 06H, 0DBH, 0CFH
+                     DB 0E6H, 0EDH, 0FDH, 07H 
+                     DB 0FFH, 0EFH, 0F7H, 0FCH
+                     DB 03DH, 0DEH, 0F9H, 0F1H
+       DATA1         DB 1,2,3,4,5,6         ;UNPACKED BCD NUMBER WILL BE DISPLAYED 
+       
+       .CODE
+       MAIN PROC FAR
+            MOV AX, @DATA
+            MOV DS, AX
+            ;TODO1:PROGRAM 8255
+            MOV DX, PORT_CTRL
+            MOV AL, 10000000B               ;MOV AL, CTRLWORD_8255
+            OUT DX, AL
+            ;TODO2:
+LOOP1:         
+            MOV CX, 6                       
+            MOV SI, OFFSET DATA1            
+            MOV AH, 00H
+            MOV AL, 0FEH                    
+            ;TODO3:BEGIN TO DISPLAY        
+LOOP2:
+            ;
+            MOV DX, PORT_C
+            OUT DX, AL                      
+            PUSH AX                         ;PUSH AX IN THE STACK
+            ;TODO3
+            MOV BX, OFFSET PATTERN_TABLE    ;BX POINTS TO THE PATTERN TABLE
+            MOV AL, BYTE PTR [SI]           ;LOADING A BCD NUMBER 
+            XLAT                            ;WE ARE RETRIEVE PATTERN-CODE 
+            MOV DX, PORT_B
+            OUT DX, AL
+            CALL DELAY
+            ;TODO3-3:                       
+            INC SI                          
+            POP AX
+            ROL AL, 1                       
+            LOOP LOOP2                      
+            
+            JMP LOOP1                       
+            
+            MOV AX, 4C00H                   ;RETURN TO DOS
+            INT 21H
+MAIN ENDP            
+;;====================================================================                   
+;SUBROUTINE:DELAY
+;DELAY FOR SOME MILLISECONDS
+DELAY    PROC NEAR
+         PUSH BX;                            
+         PUSH CX;                           
+         MOV BX, 0EH
+LOOP_OUT:                                   
+    MOV CX, 0FFH
+LOOP_INNER:                                 
+    LOOP LOOP_INNER
+    DEC BX
+    JNZ LOOP_OUT
+    POP CX                                   
+    POP BX                                                                       
+    RET
+DELAY   ENDP
+END MAIN
