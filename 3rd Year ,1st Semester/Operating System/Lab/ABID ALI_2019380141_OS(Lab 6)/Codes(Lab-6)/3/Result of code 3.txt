@@ -1,0 +1,1042 @@
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 3 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 3 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resources:
+6 7 8 
+Available Resources : 
+10 5 7 
+The need : 
+10 10 10 
+STUCK HERE
+NOT SAFE ! CAN'T GRANT RESOURCES 
+
+Customer 4 is Requesting Resource^Cmake: *** [Makefile:9: exec] Interrupt
+
+abid@ubuntu:~/Final Lab-6/3$

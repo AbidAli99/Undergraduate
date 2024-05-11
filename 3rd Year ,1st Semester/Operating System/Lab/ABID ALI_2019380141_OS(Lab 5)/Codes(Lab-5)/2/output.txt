@@ -1,0 +1,378 @@
+Creating producer thread with id 0.
+Creating producer thread with id 1.
+Creating producer thread with id 2.
+Producer thread 0 sleeping for 2 seconds.
+Producer thread 1 sleeping for 2 seconds.
+Creating producer thread with id 3.
+Creating producer thread with id 4.
+Creating producer thread with id 5.
+Creating producer thread with id 6.
+Producer thread 5 sleeping for 1 seconds.
+Producer thread 6 sleeping for 2 seconds.
+Creating producer thread with id 7.
+Creating producer thread with id 8.
+Creating producer thread with id 9.
+Creating consumer thread with id 0.
+Creating consumer thread with id 1.
+Creating consumer thread with id 2.
+Creating consumer thread with id 3.
+Creating consumer thread with id 4.
+Creating consumer thread with id 5.
+Creating consumer thread with id 6.
+Consumer thread 4 sleeping for 3 seconds.
+Creating consumer thread with id 7.
+Consumer thread 5 sleeping for 2 seconds.
+Consumer thread 6 sleeping for 2 seconds.
+Consumer thread 7 sleeping for 2 seconds.
+Producer thread 2 sleeping for 1 seconds.
+Producer thread 4 sleeping for 1 seconds.
+Creating consumer thread with id 8.
+Creating consumer thread with id 9.
+Main thread sleeping for 10 seconds.
+Producer thread 3 sleeping for 3 seconds.
+Producer thread 9 sleeping for 3 seconds.
+Consumer thread 0 sleeping for 2 seconds.
+Consumer thread 1 sleeping for 3 seconds.
+Consumer thread 2 sleeping for 2 seconds.
+Consumer thread 3 sleeping for 1 seconds.
+Producer thread 7 sleeping for 2 seconds.
+Producer thread 8 sleeping for 1 seconds.
+Consumer thread 8 sleeping for 2 seconds.
+Consumer thread 9 sleeping for 2 seconds.
+Insert_item inserted item 12 at position 0
+[12][empty][empty][empty][empty]in = 1, out = 4.
+Producer thread 5 inserted value 12.
+Producer thread 5 sleeping for 3 seconds.
+Insert_item inserted item 68 at position 1
+[12][68][empty][empty][empty]in = 2, out = 3.
+Producer thread 2 inserted value 68.
+Producer thread 2 sleeping for 1 seconds.
+Insert_item inserted item 83 at position 2
+[12][68][83][empty][empty]in = 3, out = 2.
+Producer thread 4 inserted value 83.
+Producer thread 4 sleeping for 3 seconds.
+Remove_item removed item 0 at position 0
+[empty][68][83][empty][empty]in = 2, out = 3.
+Consumer thread 3 removed value 12.
+Consumer thread 3 sleeping for 3 seconds.
+Insert_item inserted item 24 at position 3
+[empty][68][83][24][empty]in = 3, out = 2.
+Producer thread 8 inserted value 24.
+Producer thread 8 sleeping for 2 seconds.
+Insert_item inserted item 36 at position 4
+[empty][68][83][24][36]in = 4, out = 1.
+Producer thread 0 inserted value 36.
+Producer thread 0 sleeping for 3 seconds.
+Insert_item inserted item 3 at position 0
+[3][68][83][24][36]in = 5, out = 0.
+Producer thread 1 inserted value 3.
+Producer thread 1 sleeping for 1 seconds.
+Remove_item removed item 0 at position 1
+[3][empty][83][24][36]in = 4, out = 1.
+Consumer thread 5 removed value 68.
+Consumer thread 5 sleeping for 1 seconds.
+Remove_item removed item 0 at position 2
+[3][empty][empty][24][36]in = 3, out = 2.
+Consumer thread 0 removed value 83.
+Consumer thread 0 sleeping for 2 seconds.
+Insert_item inserted item 59 at position 1
+[3][59][empty][24][36]in = 4, out = 1.
+Producer thread 6 inserted value 59.
+Producer thread 6 sleeping for 2 seconds.
+Remove_item removed item 0 at position 3
+[3][59][empty][empty][36]in = 3, out = 2.
+Consumer thread 6 removed value 24.
+Consumer thread 6 sleeping for 2 seconds.
+Insert_item inserted item 70 at position 2
+[3][59][70][empty][36]in = 4, out = 1.
+Producer thread 2 inserted value 70.
+Producer thread 2 sleeping for 2 seconds.
+Remove_item removed item 0 at position 4
+[3][59][70][empty][empty]in = 3, out = 2.
+Consumer thread 7 removed value 36.
+Consumer thread 7 sleeping for 1 seconds.
+Insert_item inserted item 74 at position 3
+[3][59][70][74][empty]in = 4, out = 1.
+Producer thread 7 inserted value 74.
+Producer thread 7 sleeping for 1 seconds.
+Remove_item removed item 0 at position 0
+[empty][59][70][74][empty]in = 3, out = 2.
+Consumer thread 2 removed value 3.
+Consumer thread 2 sleeping for 3 seconds.
+Remove_item removed item 0 at position 1
+[empty][empty][70][74][empty]in = 2, out = 3.
+Consumer thread 8 removed value 59.
+Consumer thread 8 sleeping for 3 seconds.
+Remove_item removed item 0 at position 2
+[empty][empty][empty][74][empty]in = 1, out = 4.
+Consumer thread 9 removed value 70.
+Consumer thread 9 sleeping for 2 seconds.
+Insert_item inserted item 99 at position 4
+[empty][empty][empty][74][99]in = 2, out = 3.
+Producer thread 1 inserted value 99.
+Producer thread 1 sleeping for 3 seconds.
+Remove_item removed item 0 at position 3
+[empty][empty][empty][empty][99]in = 1, out = 4.
+Consumer thread 4 removed value 74.
+Consumer thread 4 sleeping for 3 seconds.
+Insert_item inserted item 71 at position 0
+[71][empty][empty][empty][99]in = 2, out = 3.
+Producer thread 3 inserted value 71.
+Producer thread 3 sleeping for 3 seconds.
+Insert_item inserted item 27 at position 1
+[71][27][empty][empty][99]in = 3, out = 2.
+Producer thread 9 inserted value 27.
+Producer thread 9 sleeping for 2 seconds.
+Remove_item removed item 68 at position 4
+[71][27][empty][empty][empty]in = 2, out = 3.
+Consumer thread 5 removed value 99.
+Consumer thread 5 sleeping for 3 seconds.
+Remove_item removed item 0 at position 0
+[empty][27][empty][empty][empty]in = 1, out = 4.
+Consumer thread 1 removed value 71.
+Consumer thread 1 sleeping for 3 seconds.
+Remove_item removed item 36 at position 1
+[empty][empty][empty][empty][empty]in = 0, out = 5.
+Consumer thread 7 removed value 27.
+Consumer thread 7 sleeping for 1 seconds.
+Insert_item inserted item 63 at position 0
+[63][empty][empty][empty][empty]in = 1, out = 4.
+Producer thread 8 inserted value 63.
+Producer thread 8 sleeping for 3 seconds.
+Insert_item inserted item 97 at position 1
+[63][97][empty][empty][empty]in = 2, out = 3.
+Producer thread 7 inserted value 97.
+Producer thread 7 sleeping for 2 seconds.
+Insert_item inserted item 6 at position 2
+[63][97][6][empty][empty]in = 3, out = 2.
+Producer thread 5 inserted value 6.
+Producer thread 5 sleeping for 1 seconds.
+Insert_item inserted item 85 at position 3
+[63][97][6][85][empty]in = 4, out = 1.
+Producer thread 6 inserted value 85.
+Producer thread 6 sleeping for 3 seconds.
+Insert_item inserted item 28 at position 4
+[63][97][6][85][28]in = 5, out = 0.
+Producer thread 4 inserted value 28.
+Producer thread 4 sleeping for 2 seconds.
+Remove_item removed item 83 at position 0
+[empty][97][6][85][28]in = 4, out = 1.
+Consumer thread 0 removed value 63.
+Consumer thread 0 sleeping for 1 seconds.
+Insert_item inserted item 6 at position 0
+[6][97][6][85][28]in = 5, out = 0.
+Producer thread 2 inserted value 6.
+Remove_item removed item 24 at position 1
+[6][empty][6][85][28]in = 4, out = 1.
+Consumer thread 6 removed value 97.
+Consumer thread 6 sleeping for 3 seconds.
+Producer thread 2 sleeping for 2 seconds.
+Remove_item removed item 27 at position 2
+[6][empty][empty][85][28]in = 3, out = 2.
+Consumer thread 7 removed value 6.
+Consumer thread 7 sleeping for 1 seconds.
+Remove_item removed item 12 at position 3
+[6][empty][empty][empty][28]in = 2, out = 3.
+Consumer thread 3 removed value 85.
+Consumer thread 3 sleeping for 1 seconds.
+Remove_item removed item 70 at position 4
+[6][empty][empty][empty][empty]in = 1, out = 4.
+Consumer thread 9 removed value 28.
+Consumer thread 9 sleeping for 1 seconds.
+Insert_item inserted item 46 at position 1
+[6][46][empty][empty][empty]in = 2, out = 3.
+Producer thread 0 inserted value 46.
+Producer thread 0 sleeping for 3 seconds.
+Insert_item inserted item 68 at position 2
+[6][46][68][empty][empty]in = 3, out = 2.
+Producer thread 9 inserted value 68.
+Producer thread 9 sleeping for 3 seconds.
+Insert_item inserted item 65 at position 3
+[6][46][68][65][empty]in = 4, out = 1.
+Producer thread 5 inserted value 65.
+Producer thread 5 sleeping for 1 seconds.
+Remove_item removed item 63 at position 0
+[empty][46][68][65][empty]in = 3, out = 2.
+Consumer thread 0 removed value 6.
+Consumer thread 0 sleeping for 3 seconds.
+Remove_item removed item 3 at position 1
+[empty][empty][68][65][empty]in = 2, out = 3.
+Consumer thread 2 removed value 46.
+Consumer thread 2 sleeping for 2 seconds.
+Remove_item removed item 59 at position 2
+[empty][empty][empty][65][empty]in = 1, out = 4.
+Consumer thread 8 removed value 68.
+Consumer thread 8 sleeping for 1 seconds.
+Remove_item removed item 6 at position 3
+[empty][empty][empty][empty][empty]in = 0, out = 5.
+Consumer thread 7 removed value 65.
+Consumer thread 7 sleeping for 1 seconds.
+Insert_item inserted item 79 at position 0
+[79][empty][empty][empty][empty]in = 1, out = 4.
+Producer thread 7 inserted value 79.
+Producer thread 7 sleeping for 3 seconds.
+Remove_item removed item 85 at position 0
+[empty][empty][empty][empty][empty]in = 0, out = 5.
+Consumer thread 3 removed value 79.
+Consumer thread 3 sleeping for 1 seconds.
+Insert_item inserted item 4 at position 0
+[4][empty][empty][empty][empty]in = 1, out = 4.
+Producer thread 1 inserted value 4.
+Producer thread 1 sleeping for 3 seconds.
+Remove_item removed item 28 at position 0
+[empty][empty][empty][empty][empty]in = 0, out = 5.
+Consumer thread 9 removed value 4.
+Consumer thread 9 sleeping for 3 seconds.
+Insert_item inserted item 100 at position 0
+[100][empty][empty][empty][empty]in = 1, out = 4.
+Producer thread 3 inserted value 100.
+Producer thread 3 sleeping for 1 seconds.
+Insert_item inserted item 61 at position 1
+[100][61][empty][empty][empty]in = 2, out = 3.
+Producer thread 5 inserted value 61.
+Producer thread 5 sleeping for 3 seconds.
+Remove_item removed item 74 at position 0
+[empty][61][empty][empty][empty]in = 1, out = 4.
+Consumer thread 4 removed value 100.
+Consumer thread 4 sleeping for 1 seconds.
+Remove_item removed item 99 at position 1
+[empty][empty][empty][empty][empty]in = 0, out = 5.
+Consumer thread 5 removed value 61.
+Consumer thread 5 sleeping for 2 seconds.
+Insert_item inserted item 13 at position 0
+[13][empty][empty][empty][empty]in = 1, out = 4.
+Producer thread 4 inserted value 13.
+Producer thread 4 sleeping for 2 seconds.
+Insert_item inserted item 87 at position 1
+[13][87][empty][empty][empty]in = 2, out = 3.
+Producer thread 2 inserted value 87.
+Remove_item removed item 71 at position 0
+[empty][87][empty][empty][empty]in = 1, out = 4.
+Consumer thread 1 removed value 13.
+Consumer thread 1 sleeping for 3 seconds.
+Producer thread 2 sleeping for 1 seconds.
+Insert_item inserted item 96 at position 2
+[empty][87][96][empty][empty]in = 2, out = 3.
+Producer thread 8 inserted value 96.
+Producer thread 8 sleeping for 2 seconds.
+Remove_item removed item 68 at position 1
+[empty][empty][96][empty][empty]in = 1, out = 4.
+Consumer thread 8 removed value 87.
+Consumer thread 8 sleeping for 3 seconds.
+Remove_item removed item 65 at position 2
+[empty][empty][empty][empty][empty]in = 0, out = 5.
+Consumer thread 7 removed value 96.
+Consumer thread 7 sleeping for 2 seconds.
+Insert_item inserted item 68 at position 0
+[68][empty][empty][empty][empty]in = 1, out = 4.
+Producer thread 3 inserted value 68.
+Producer thread 3 sleeping for 1 seconds.
+Remove_item removed item 79 at position 0
+[empty][empty][empty][empty][empty]in = 0, out = 5.
+Consumer thread 3 removed value 68.
+Consumer thread 3 sleeping for 3 seconds.
+Insert_item inserted item 3 at position 0
+[3][empty][empty][empty][empty]in = 1, out = 4.
+Producer thread 6 inserted value 3.
+Producer thread 6 sleeping for 1 seconds.
+Remove_item removed item 100 at position 0
+[empty][empty][empty][empty][empty]in = 0, out = 5.
+Consumer thread 4 removed value 3.
+Consumer thread 4 sleeping for 1 seconds.
+Insert_item inserted item 53 at position 0
+[53][empty][empty][empty][empty]in = 1, out = 4.
+Producer thread 2 inserted value 53.
+Producer thread 2 sleeping for 3 seconds.
+Remove_item removed item 97 at position 0
+[empty][empty][empty][empty][empty]in = 0, out = 5.
+Consumer thread 6 removed value 53.
+Consumer thread 6 sleeping for 2 seconds.
+Insert_item inserted item 81 at position 0
+[81][empty][empty][empty][empty]in = 1, out = 4.
+Producer thread 0 inserted value 81.
+Producer thread 0 sleeping for 3 seconds.
+Remove_item removed item 46 at position 0
+[empty][empty][empty][empty][empty]in = 0, out = 5.
+Consumer thread 2 removed value 81.
+Consumer thread 2 sleeping for 2 seconds.
+Insert_item inserted item 66 at position 0
+[66][empty][empty][empty][empty]in = 1, out = 4.
+Producer thread 9 inserted value 66.
+Producer thread 9 sleeping for 3 seconds.
+Remove_item removed item 61 at position 0
+[empty][empty][empty][empty][empty]in = 0, out = 5.
+Consumer thread 5 removed value 66.
+Consumer thread 5 sleeping for 2 seconds.
+Insert_item inserted item 20 at position 0
+[20][empty][empty][empty][empty]in = 1, out = 4.
+Producer thread 3 inserted value 20.
+Producer thread 3 sleeping for 2 seconds.
+Remove_item removed item 6 at position 0
+[empty][empty][empty][empty][empty]in = 0, out = 5.
+Consumer thread 0 removed value 20.
+Consumer thread 0 sleeping for 1 seconds.
+Insert_item inserted item 32 at position 0
+[32][empty][empty][empty][empty]in = 1, out = 4.
+Producer thread 4 inserted value 32.
+Producer thread 4 sleeping for 2 seconds.
+Insert_item inserted item 98 at position 1
+[32][98][empty][empty][empty]in = 2, out = 3.
+Producer thread 8 inserted value 98.
+Producer thread 8 sleeping for 3 seconds.
+Insert_item inserted item 82 at position 2
+[32][98][82][empty][empty]in = 3, out = 2.
+Producer thread 6 inserted value 82.
+Producer thread 6 sleeping for 3 seconds.
+Remove_item removed item 3 at position 0
+[empty][98][82][empty][empty]in = 2, out = 3.
+Consumer thread 4 removed value 32.
+Consumer thread 4 sleeping for 1 seconds.
+Insert_item inserted item 28 at position 3
+[empty][98][82][28][empty]in = 3, out = 2.
+Producer thread 7 inserted value 28.
+Producer thread 7 sleeping for 1 seconds.
+Remove_item removed item 96 at position 1
+[empty][empty][82][28][empty]in = 2, out = 3.
+Consumer thread 7 removed value 98.
+Consumer thread 7 sleeping for 2 seconds.
+Insert_item inserted item 98 at position 4
+[empty][empty][82][28][98]in = 3, out = 2.
+Producer thread 1 inserted value 98.
+Producer thread 1 sleeping for 1 seconds.
+Remove_item removed item 4 at position 2
+[empty][empty][empty][28][98]in = 2, out = 3.
+Consumer thread 9 removed value 82.
+Consumer thread 9 sleeping for 1 seconds.
+Insert_item inserted item 66 at position 0
+[66][empty][empty][28][98]in = 3, out = 2.
+Producer thread 5 inserted value 66.
+Producer thread 5 sleeping for 2 seconds.
+Remove_item removed item 20 at position 3
+[66][empty][empty][empty][98]in = 2, out = 3.
+Consumer thread 0 removed value 28.
+Consumer thread 0 sleeping for 3 seconds.
+Remove_item removed item 13 at position 4
+[66][empty][empty][empty][empty]in = 1, out = 4.
+Consumer thread 1 removed value 98.
+Consumer thread 1 sleeping for 3 seconds.
+Remove_item removed item 87 at position 0
+[empty][empty][empty][empty][empty]in = 0, out = 5.
+Consumer thread 8 removed value 66.
+Consumer thread 8 sleeping for 3 seconds.
+Insert_item inserted item 29 at position 0
+[29][empty][empty][empty][empty]in = 1, out = 4.
+Producer thread 7 inserted value 29.
+Producer thread 7 sleeping for 1 seconds.
+Remove_item removed item 53 at position 0
+[empty][empty][empty][empty][empty]in = 0, out = 5.
+Consumer thread 6 removed value 29.
+Consumer thread 6 sleeping for 3 seconds.
+Insert_item inserted item 30 at position 0
+[30][empty][empty][empty][empty]in = 1, out = 4.
+Producer thread 1 inserted value 30.
+Producer thread 1 sleeping for 1 seconds.
+Remove_item removed item 32 at position 0
+[empty][empty][empty][empty][empty]in = 0, out = 5.
+Consumer thread 4 removed value 30.
+Consumer thread 4 sleeping for 3 seconds.
+Main thread exiting.
