@@ -1,0 +1,155 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+from mpl_toolkits.mplot3d import Axes3D
+import scipy.fftpack
+
+dt_brain = .005
+dt_world = .005
+T = 5
+iterations = int(T/dt_brain)
+plt.close('all')
+lag = 1
+#np.random.seed(42)
+
+sensors_n = 2
+motors_n = 2
+obs_states = sensors_n
+hidden_states = obs_states                                  # x, in Friston's work
+hidden_causes = sensors_n                                   # v, in Friston's work
+states = obs_states + hidden_states
+
+### Braitenberg vehicle variables
+radius = 2
+sensors_angle = np.pi/3                                     # angle between sensor and central body line
+length_dir = 3                                              # used to plot?
+max_speed = 100.
+
+l_max = 200.
+turning_speed = 30.
+
+### Global functions ###
+
+x_light = 59
+
+def light_level(x_agent):
+    sigma_x = 30.
+    mu = x_light    
+    return 78 * l_max / (np.sqrt(2 * np.pi) * sigma_x) * np.exp(- (x_agent[0] - mu) ** 2 / (sigma_x ** 2))
+
+
+# free energy functions
+def g(x, v):
+    return x
+
+def f(x_agent, v_agent, v_motor, theta, v, w, a_det, a_stoc, ff, i):
+#    # vehicle 3a - lover
+#    v_motor[i, :] = l_max - (a_det + a_stoc)
+    
+    # vehicle 2b - aggressor
+    v_motor[i, ::-1] = a_det + a_stoc
+#    v_motor[i, ::-1] = ff
+    
+    # translation
+#    v_agent[i] = (v_motor[i, 0] + v_motor[i, 1]) / 2
+    # vehicle 3a - lover
+#    v_agent[i] = (l_max - (a_det[1] + a_stoc[1] / np.sqrt(dt_world)) + l_max - (a_det[0] + a_stoc[0] / np.sqrt(dt_world))) / 2
+    
+    # vehicle 2b - aggressor
+    v_agent[i] = (a_det[0] + a_stoc[0] / np.sqrt(dt_world) + a_det[1] + a_stoc[1] / np.sqrt(dt_world)) / 2
+    
+    x_agent[i + 1, :] = x_agent[i, :] + dt_world * (v_agent[i] * np.array([np.cos(theta[i]), np.sin(theta[i])]))
+        
+    # rotation
+    omega = turning_speed * np.float((v_motor[i, 1] - v_motor[i, 0]) / (2 * radius))
+    theta[i + 1] = theta[i] + dt_world * omega
+    theta[i + 1] = np.mod(theta[i + 1], 2 * np.pi)
+    
+    # return level of light for each sensor
+    
+    sensor = np.zeros(2, )
+    
+    sensor[0] = light_level(x_agent[i, :, None] + radius * (np.array([[np.cos(theta[i] + sensors_angle)], [np.sin(theta[i] + sensors_angle)]])))            # left sensor
+    sensor[1] = light_level(x_agent[i, :, None] + radius * (np.array([[np.cos(theta[i] - sensors_angle)], [np.sin(theta[i] - sensors_angle)]])))            # right sensor
+    
+    return sensor, v_motor[i, :]
+
+def getObservation(x_agent, v_agent, v_motor, theta, v, w, z, a_det, a_stoc, ff, iteration):
+    x, v_motor = f(x_agent, v_agent, v_motor, theta, v, w, a_det, a_stoc, ff, iteration)
+    return (g(x, v), g(x, v) + z)
+
+def Braitenberg(noise_level, desired_confidence, z2):    
+    # noise on sensory input
+    gamma_z = noise_level * np.ones((obs_states, ))    # log-precisions
+    pi_z = np.exp(gamma_z) * np.ones((obs_states, ))
+    sigma_z = 1 / (np.sqrt(pi_z))
+    z = (np.dot(np.diag(sigma_z), np.random.randn(obs_states, iterations))).transpose()
+    z = z2
+    
+    # noise on motion of hidden states
+    gamma_w = desired_confidence * np.ones((hidden_states, ))    # log-precision
+    pi_w = np.exp(gamma_w) * np.ones((hidden_states, ))
+    sigma_w = 1 / (np.sqrt(pi_w))
+    w = (np.dot(np.diag(sigma_w), np.random.randn(obs_states, iterations))).transpose()
+    
+    s2 = np.zeros((iterations, sensors_n))
+    theta2 = np.zeros((iterations, ))                            # orientation of the agent
+    x_agent2 = np.zeros((iterations, 2))                         # 2D world, 2 coordinates por agent position
+    v_agent2 = np.zeros((iterations, ))
+    v_motor2 = np.zeros((iterations, motors_n))
+    rho2 = np.zeros((iterations, obs_states))
+    filtered_rho2 = np.zeros((iterations, obs_states))
+    
+    ### initialisation
+    
+#    x_agent2[0, :] = np.array([10., 10. * np.random.rand()])
+    x_agent2[0, :] = np.array([0., 0.])
+    #x_agent2[0, :] = 100 * np.random.rand(1, 2)
+    
+    #theta[0] = np.pi * np.random.rand()
+    theta2[0] = np.pi / 2 #2 / 3 * np.pi
+    
+
+    decay = 10
+    
+#    s2[0, :], rho2[0, :] = getObservation(x_agent2, v_agent2, v_motor2, theta2, 0., w[0, :], z[0, :], (s2[0, ::-1] + z[0, ::-1] / np.sqrt(dt_brain)), 0)
+    for i in range(1, iterations - 1):
+        s2[i, :], rho2[i, :] = getObservation(x_agent2, v_agent2, v_motor2, theta2, 0., w[i, :], z[i, :], s2[i - lag, :], z[i - lag, :], filtered_rho2[i-1, :], i)
+
+        filtered_rho2[i, :] = filtered_rho2[i - 1, :] + dt_brain * decay * (rho2[i, :] - filtered_rho2[i - 1, :])
+
+
+    return x_agent2, s2, rho2, filtered_rho2
+
+
+
+noise_level = -3.
+gamma_z = noise_level * np.ones((obs_states, ))    # log-precisions
+pi_z = np.exp(gamma_z) * np.ones((obs_states, ))
+real_pi_z = np.exp(gamma_z) * np.ones((obs_states, ))
+sigma_z = 1 / (np.sqrt(real_pi_z))
+z = (np.dot(np.diag(sigma_z), np.random.randn(obs_states, iterations))).transpose()
+
+
+agent_position, s, rho, filtered_rho = Braitenberg(noise_level, 0, z)
+
+#x_light = np.array([59.,47.])
+
+
+plt.figure(figsize=(5, 4))
+plt.plot(agent_position[:, 0], agent_position[:, 1])
+#plt.xlim((0,80))
+#plt.ylim((0,80))
+#plt.plot(x_light[0], x_light[1], color='orange', marker='o', markersize=20)
+plt.plot(agent_position[0, 0], agent_position[0, 1], color='red', marker='o', markersize=8)
+plt.title('Trajectory', fontsize=14)
+
+plt.figure(figsize=(5, 4))
+plt.plot(np.arange(0, T-dt_brain, dt_brain), rho[:-1, 0], 'b', label='Sensory reading $ρ_{l_1}$')
+plt.plot(np.arange(0, T-dt_brain, dt_brain), s[:-1, 0], 'g', label='Sensory reading $ρ_{l_1}$, no noise')
+plt.plot(np.arange(0, T-dt_brain, dt_brain), filtered_rho[:-1, 0], ':r', label='Belief about sensory reading $\mu_{l_1}$')
+plt.xlabel('Time (s)')
+plt.ylabel('Luminance')
+#plt.title('Exteroceptor $ρ_{l_1}$, $\mu_{l_1}$', fontsize=14)
+plt.legend(loc = 4)
+
