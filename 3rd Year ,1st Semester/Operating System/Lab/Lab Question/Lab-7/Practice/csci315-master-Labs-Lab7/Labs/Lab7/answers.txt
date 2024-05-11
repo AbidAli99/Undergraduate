@@ -1,0 +1,30 @@
+1. A doubly-linked list is used for memory management since it can easily implement contiguity.
+   Each allocated process and hole is stored as a node in one of the linked lists. Removing
+   and inserting nodes into the linked lists is easy since there is always a node pointing to
+   the previous and next nodes in the list. When a process is allocated memory, a node is
+   inserted into the allocated-list and a node is removed from the free-list. Vice-versa
+   applies to when a process's memory is deallocated.
+2. An array will work well to manage the memory. Finding a block to delete/insert is easy since arrays
+   are indexed. Also, we can tell if any memory is exceeded by adding up sizes of each index in the array.
+3. External Fragmentation: exists when there is enough total memory space to satisfy a request 
+   but the available spaces are not contiguous: storage is fragmented into a large number of 
+   small holes. This will occur when a process has a total number of bytes larger than any
+   individual hole, but the sum of the bytes of each hole is larger than that of the process.
+4. Internal Fragmentation: the wasted space within each allocated block because of rounding up 
+   from the actual requested allocation to the allocation granularity. This occurs when 
+   physical memory is broken into fixed-sized blocks and memory is allocated in units based
+   on block size. So, a process can have a data size slightly less than that off the block size,
+   but the full block of memory will be allocated to the process. Thus, there is a little bit
+   of memory that is not needed by the process but is still allocated to the process. This 
+   unneeded allocated memory is internal fragmentation.
+5. First-Fit: Allocate the first hole that is big enough; stop searching as soon as we find a 
+   free hole that is large enough. An advantage is that it is the fastest allocation policy.
+   A disadvantage is that it suffers from external fragmentation.
+6. Best-Fit: Allocate the smallest hole that is big enough; produces the smallest leftover hole.
+   An advantage is that it minimizes the amount of internal fragmentation, but the disadvantage
+   is that it takes longer than first-fit since best-fit needs to traverse the whole list.
+7. Worst-Fit: Allocate the largest hole; produces the largest leftover hole after traversing
+   the whole list. The advantage is that it reduces fragmentation, while the disadvantages
+   are that it runs the slowest and has the worst storage utilization out of the allocation
+   policies.
+

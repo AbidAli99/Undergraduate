@@ -1,0 +1,27 @@
+---------------------------------------------------------------------
+Lab 8 -- Feedback
+---------------------------------------------------------------------
+
+Problem 1: 				
+	1.1 type of fragmentation				8/8
+
+	1.2 propose ways to benchmark allocator			8/8
+	
+	1.3 psuedo code for average_frag()			14/14
+
+Problem 2:
+	comment on the provided psuedo-code			8/8
+
+	frag-eval.c runs and produces output			17/17
+
+	Makefile compiles frag-eval.c	 			5/5
+
+Problem 3:				
+	exp-results.pdf has results				20/20
+	
+	reflect upon data in pdf				20/20
+						
+---------------------------------------------------------------------
+TOTAL 100 / 100
+---------------------------------------------------------------------
+

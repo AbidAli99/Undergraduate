@@ -1,0 +1,34 @@
+---------------------------------------------------------------------
+Lab 7 -- Feedback
+---------------------------------------------------------------------
+
+Prelab: 				
+	is a dll a suitable data structure			4/4
+	propose another data structure				4/4
+	define and describe external fragmentation 		3/3
+	define and describe internal fragmentation 		3/3
+	describe first-fit, advantages and disadvantages	4/4
+	describe best-fit, advantages and disadvantages		4/4
+	describe worst-fit, advantages and disadvantages	4/4	
+
+Lab:
+	correct implementation of allocator_init		12/12
+
+	through doc/designAPI.txt				12/12
+
+	correct implementation of allocate			12/12
+
+	dll supports deallocate					7/7
+
+	correct implementation of deallocate			12/12
+
+	working test program with no bugs			15/15
+						
+extra credit							0/30
+
+Great Job!
+
+---------------------------------------------------------------------
+TOTAL 100 / 100
+---------------------------------------------------------------------
+

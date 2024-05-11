@@ -1,0 +1,44 @@
+(1.1)
+Only external fragmentation is possible. Since there is no paging, internal fragmentation is not possible.
+
+(1.2)
+Average allocation time - the average time it takes to allocate a block of memory to a free memory block in free_list. To calculate this, I would allocate and deallocate a random amount of times with random sized memory blocks and measure the time for each allocation. To compute the average, sum all the allocation times and divide by the random number of allocations chosen.
+Average deallocation time - the same metric as average allocation time, but measuring deallocation. The average time it takes to deallocate a block of memory in allocated_list. To calculate this, I would allocate and deallocate a random number of times with random sized memory blocks and measure the total time taken to deallocate a given block. To compute the average, sum all the allocation times and divide by the random number of deallocations chosen.
+
+(1.3)
+
+double totalSize = 0 //keeps track of total size of nodes traversed in free_list
+int totalNodes = 0 //keeps track of # of nodes traversed in free_list
+
+While loop through each node in free_list:
+	totalSize += size of current node
+	totatlNodes += 1
+
+if totalNodes is 0:
+	print "free_list is empty"
+	return 0.0
+
+print total size
+print total nodes
+
+return totalSize/totalNodes
+
+
+(2.1)
+Yes, this algorithm is appropriate to bring my allocator to a state where I can have a representative amount
+of fragmentation. This algorithm simply generates a random amount of memory, between 100 and 1000 bytes, to
+be allocated and then immediately deallocated. Since I did not do the extra credit for Lab 7, when this
+allocated block is deallocated it will create a new node in free_list with size of the allocated block. Simply put, this algorithm will find an eligible node in free_list and then allocate data to that node and 
+immediately deallocate it, which creates an accurate representation of the external fragmentation of my
+allocator.
+
+
+
+(2.2)
+The Best-fit allocation policy works best for my simulation of the allocation/deallocation policy. According
+to my data, the best-fit policy has the smallest average fragmentation and the smallest 95% confidence
+interval. To calculate the confidence interval, I used excel's built-in confidence interval function. 
+The best-fit policy worked better than the others, since it has the best strategy to find a node in free_list 
+to allocate. It find the smallest node larger than the allocation memory size. Thus, when the allocated node is 
+deallocated immediately, the node added to free_list is the smallest possible node. This leads to the smallest 
+amount of fragmentation.
