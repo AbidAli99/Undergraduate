@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1623216488 source:d:\mission c programming lab\big project\2019380141_abid ali\2019380141abid1\main.c
+	<stdio.h>
+	<conio.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1548514764 source:d:\arafat\bangladesh flag\main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1548514764 source:d:\bita\bangladesh flag\main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1548514764 source:d:\undergraduate\c programming lab\bita\bangladesh flag\main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+

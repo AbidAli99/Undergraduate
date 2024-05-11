@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1714405447 source:d:\undergraduate\c programming lab\bita\usa - copy\main.cpp
+	<GL\freeglut.h>
+	<cstdlib>
+	<cmath>
+	<cstdio>
+	<iostream>
+
