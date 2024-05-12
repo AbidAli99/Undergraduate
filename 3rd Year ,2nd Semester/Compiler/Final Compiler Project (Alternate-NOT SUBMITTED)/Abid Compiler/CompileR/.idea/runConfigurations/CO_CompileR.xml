@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CO_CompileR" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="Compiler" />
+    <module name="CO_CompileR" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
