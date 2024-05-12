@@ -1,0 +1,3 @@
+short circuit current methode doesnt work if the circuit has a dependent source. 
+direct measurement also doesnt work if the circuit has a dependent source.
+semi bised methode works in any conditon.
